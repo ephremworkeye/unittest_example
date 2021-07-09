@@ -4,7 +4,7 @@ def add(x, y):
 
 def subtract(x, y):
     ''' subtract numbers'''
-    return x-y
+    return x - y
 
 def multiply(x, y):
     ''' multiply numbers'''
@@ -15,5 +15,5 @@ def divide(x, y):
     if y != 0:
         return x // y
     else:
-        return " y should not be zero"
+        raise ValueError('cannot be divided by 0')
     
